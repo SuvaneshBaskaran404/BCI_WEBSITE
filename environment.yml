@@ -1,0 +1,17 @@
+name: bci-website
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - mne
+  - plotly
+  - pytest
+  - pip
+  - pip:
+      - pyriemann
+      - moabb
+      - streamlit
